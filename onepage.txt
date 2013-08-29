@@ -1,0 +1,4 @@
+### Resources
+
+http://stuff-things.net/2007/06/11/encrypting-sensitive-data-with-ruby-on-rails/
+
