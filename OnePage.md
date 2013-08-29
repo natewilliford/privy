@@ -32,3 +32,13 @@ decrypts it with its private key, and sends it back to the service.
 If  the client's response matches the generated unencrypted message, the user is authenticated. A session cookie is sent
 back to the client just as it is with most current sites and the user is enabled to use the site as long as the cookie is
 valid.
+
+
+### Open Questions, Problems
+
+ * You need to take your keys with you wherever you go. Probably an issue on mobile.
+ * "Password" recovery is still an issue.
+ * Not as easy as just entering a password
+ * Many will choose 1Password type solutions for their keychain. Can be an issue if their machine and global password is
+   compromized.
+
