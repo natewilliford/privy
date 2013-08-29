@@ -1,4 +1,3 @@
-
 ### Resources
 
 http://homes.cs.washington.edu/~aczeskis/random/openssl-encrypt-file.html
@@ -8,13 +7,16 @@ http://stuff-things.net/2007/06/11/encrypting-sensitive-data-with-ruby-on-rails/
 
 ### General Idea
 
-The idea of public/private key encryption is that the public key can be used to encrypt messages and the private key can
-be used to decrypt them.
+Most sites use username/password, but it requres you to remember passwords and trust the service who may or may not encrypt
+it. blah, blah, blah, an asynchronous encryption approach is better. 
 
 
 ### Setup/Registration
 
-The user generates a public and private key on their client, whether through command line with openssh or some GUI. 
+The idea of public/private key encryption is that the public key can be used to encrypt messages and the private key can
+be used to decrypt them.
+
+The user generates a public and private key on their client, whether through command line with openssh or some GUI (likely a browser plugin). 
 One key should be generated for each site they have an account with. When registering for the site, they insert their 
 public key which is uploaded to the server. Possibly some simple encryption for the initial upload to the server so that 
 there is no chance of a third party getting access to a key.
